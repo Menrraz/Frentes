@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contagem de Frentes de Produtos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Contagem de Frentes de Produtos</h1>
+
+  <form id="shelves-form">
+    <label for="shelf-type">Tipo de Prateleira:</label>
+    <select id="shelf-type" required>
+      <option value="cerveja">Cerveja</option>
+      <option value="especiais">Especiais</option>
+    </select>
+
+    <label for="total-fronts">Total de Frentes:</label>
+    <input type="number" id="total-fronts" required>
+
+    <label for="company-fronts">Frentes Ocupadas pela Empresa:</label>
+    <input type="number" id="company-fronts" required>
+
+    <button type="button" id="add-shelf">Adicionar Prateleira</button>
+  </form>
+  <p id="total"></p>
+  <div id="shelf-list">
+    <!-- A lista de prateleiras será adicionada dinamicamente aqui -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
