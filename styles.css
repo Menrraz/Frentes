@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para destacar o select quando em foco */
+  select:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  /* Estilo para seta personalizada do select */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select::after {
+    content: '\25BE';
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    pointer-events: none;
+  }
+  
+  /* Estilo para a opção selecionada */
+  select option:checked {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #shelf-list {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
