@@ -2,6 +2,8 @@
 
 Este projeto foi criado utilizando o ChatGPT, uma poderosa ferramenta de geração de linguagem baseada em inteligência artificial desenvolvida pela OpenAI.
 
+link: https://menrraz.github.io/Frentes/
+
 ## Descrição
 
 O Contador de Frentes de Prateleiras é uma aplicação desenvolvida para facilitar o trabalho de contagem de frentes de produtos em prateleiras de uma loja ou supermercado. Ele permite que o usuário adicione prateleiras, insira o número total de frentes em cada prateleira e especifique quantas frentes são ocupadas pelos produtos de sua empresa. O objetivo é ajudar o usuário a cumprir a meta de ocupação de espaço determinada pela empresa, que varia entre 55% e 70% do espaço disponível.
