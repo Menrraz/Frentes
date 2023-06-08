@@ -74,3 +74,75 @@ body {
     border-radius: 4px;
     padding: 10px;
   }
+
+/* Estilos para o container principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+  margin-bottom: 20px;
+}
+
+/* Estilos para os campos de entrada e botões */
+input[type="number"],
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+/* Estilos para o botão de adicionar prateleira */
+button {
+  background-color: #FF6B6B;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+/* Estilos para o ícone de adicionar prateleira */
+button i {
+  margin-right: 5px;
+}
+
+/* Estilos para a lista de prateleiras */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FFD166;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilos para o total de prateleiras */
+#total {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+/* Estilos para o título */
+h1 {
+  background-color: #FF6B6B;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
